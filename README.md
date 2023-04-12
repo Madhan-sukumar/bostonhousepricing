@@ -11,3 +11,11 @@
 ## CREATE A NEW ENVIRONMENT
 
     conda create -n venv python=3.7 -y
+
+## Creating Requirements file
+
+    pip freeze > requirements.txt
+
+## Installing necessary packages
+    
+    pip install -r requirements.txt
